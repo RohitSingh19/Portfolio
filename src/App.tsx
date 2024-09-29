@@ -1,7 +1,10 @@
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./components/Home/Home"
+
+const App : React.FC = () => {
   return (
     <>
-        <h1 className="text-4xl text-blue-500">Portfolio Project</h1>
+        <Home />
     </>
   )
 }
